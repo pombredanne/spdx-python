@@ -11,6 +11,8 @@ ofn = os.path.basename(os.path.splitext(sys.argv[1])[0]) + '.csv'
 
 subprocess.call(['soffice', '--headless', '--convert-to', "csv", sys.argv[1]])
 data = tablib.Dataset()
+print('wot')
+print(ofn)
 with open(ofn, encoding='latin-1') as f:
     data.csv = f.read()
 

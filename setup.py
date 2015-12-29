@@ -5,7 +5,7 @@ with open('README.rst') as f:
 
 setup(
     name = "spdx",
-    version = "2.3.0-beta.1_1",
+    version = "2.3.0-beta.1_2",
     packages = ['spdx'],
     package_data = {'spdx': ['data/*.txt', 'data/db.json']},
     author = "Brendan Molloy",
