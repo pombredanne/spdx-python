@@ -5,8 +5,9 @@ with open('README.rst') as f:
 
 setup(
     name = "spdx",
-    version = "2.3.0-beta.1",
-    packages = find_packages(),
+    version = "2.3.0-beta.1_1",
+    packages = ['spdx'],
+    package_data = {'spdx': ['data/*.txt', 'data/db.json']},
     author = "Brendan Molloy",
     author_email = "brendan+pypi@bbqsrc.net",
     description = "SPDX license list database",
