@@ -1,6 +1,12 @@
+import copy
 import json
 import os.path
-import copy
+import sys
+
+_IS_PY2 = sys.version_info[0] == 2
+if _IS_PY2:
+    import codecs
+    open = codecs.open
 
 _license_path = os.path.join(os.path.dirname(__file__), 'data')
 
