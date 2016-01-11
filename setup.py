@@ -16,7 +16,7 @@ setup(
     url = "https://github.com/bbqsrc/spdx-python",
     long_description=desc,
     classifiers=[
-        "Development Status :: 4 - Beta",
+        "Development Status :: 5 - Production/Stable",
         "License :: CC0 1.0 Universal (CC0 1.0) Public Domain Dedication",
         "Programming Language :: Python :: 2",
         "Programming Language :: Python :: 2.6",
