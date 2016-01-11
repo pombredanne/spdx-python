@@ -232,7 +232,7 @@
       ],
       "notes": "This license was released January 2004",
       "osi_approved": true,
-      "header": "Copyright [yyyy] [name of copyright owner]\n\nLicensed under the Apache License, Version 2.0 (the \"License\"); you may not use this file except in compliance with the License. You may obtain a copy of the License at\n\n     http://www.apache.org/licenses/LICENSE-2.0\n\nUnless required by applicable law or agreed to in writing, software distributed under the License is distributed on an \"AS IS\" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License.",
+      "header": "Copyright <<var;name=copyright;original=[yyyy] [name of copyright owner];match=.+>>\n\nLicensed under the Apache License, Version 2.0 (the \"License\"); you may not use this file except in compliance with the License. You may obtain a copy of the License at\n\n     http://www.apache.org/licenses/LICENSE-2.0\n\nUnless required by applicable law or agreed to in writing, software distributed under the License is distributed on an \"AS IS\" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License.",
       "template": "Apache-2.0.txt"
     },
     {
@@ -410,7 +410,7 @@
       ],
       "notes": "This license was released: 17 August 2003",
       "osi_approved": true,
-      "header": "Copyright {{Joe Coder}} {{2004 - 2006}}.\nDistributed under the Boost Software License, Version 1.0.\n(See accompanying file LICENSE_1_0.txt or copy at http://www.boost.org/LICENSE_1_0.txt)",
+      "header": null,
       "template": "BSL-1.0.txt"
     },
     {
@@ -730,7 +730,7 @@
       ],
       "notes": null,
       "osi_approved": true,
-      "header": "\u0093The contents of this file are subject to the Common Public Attribution License Version 1.0 (the \u0093License\u0094); you may not use this file except in compliance with the License. You may obtain a copy of the License at {{---}}. The License is based on the Mozilla Public License Version 1.1 but Sections 14 and 15 have been added to cover use of software over a computer network and provide for limited attribution for the Original Developer. In addition, Exhibit A has been modified to be consistent with Exhibit B.\n\nSoftware distributed under the License is distributed on an \u0093AS IS\u0094 basis, WITHOUT WARRANTY OF ANY KIND, either express or implied. See the License for the specific language governing rights and limitations under the License.\n\nThe Original Code is {{---}}.\nThe Original Developer is not the Initial Developer and is {{---}}. If left blank, the Original Developer is the Initial Developer.\nThe Initial Developer of the Original Code is {{---}}. All portions of the code written by {{---}} are Copyright (c) {{---}}. All Rights Reserved.\nContributor {{---}}.\n\nAlternatively, the contents of this file may be used under the terms of the {{---}} license (the {{---}} License), in which case the provisions of {{---}} License are applicable instead of those above. If you wish to allow use of your version of this file only under the terms of the {{---}} License and not to allow others to use your version of this file under the CPAL, indicate your decision by deleting the provisions above and replace them with the notice and other provisions required by the {{---}} License. If you do not delete the provisions above, a recipient may use your version of this file under either the CPAL or the {{---}} License.",
+      "header": "The contents of this file are subject to the Common Public Attribution License Version 1.0 (the \u0093License\u0094); you may not use this file except in compliance with the License. You may obtain a copy of the License at _____. The License is based on the Mozilla Public License Version 1.1 but Sections 14 and 15 have been added to cover use of software over a computer network and provide for limited attribution for the Original Developer. In addition, Exhibit A has been modified to be consistent with Exhibit B.\n\nSoftware distributed under the License is distributed on an \u0093AS IS\u0094 basis, WITHOUT WARRANTY OF ANY KIND, either express or implied. See the License for the specific language governing rights and limitations under the License.\n\nThe Original Code is <<var;name=code;original=_____;match=.+>>.\nThe Original Developer is not the Initial Developer and is <<var;name=developer;original=_____;match=.+>>. If left blank, the Original Developer is the Initial Developer.\nThe Initial Developer of the Original Code is <<var;name=InitialDeveloper;original=_____;match=.+>>. All portions of the code written by <<var;name=createdby;original=_____;match=.+>>  are Copyright (c) <<var;name=copyright;original=_____;match=.+>>. All Rights Reserved.\nContributor <<var;name=contributor;original=_____;match=.+>>.\n\nAlternatively, the contents of this file may be used under the terms of the <<var;name=AltLicense;original=_____;match=.+>> license (the <<var;name=licenseName;original=[____];match=.+>> License), in which case the provisions of <<var;name=licenseName;original=[____];match=.+>>  License are applicable instead of those above. If you wish to allow use of your version of this file only under the terms of the <<var;name=licenseName;original=[____];match=.+>> License and not to allow others to use your version of this file under the CPAL, indicate your decision by deleting the provisions above and replace them with the notice and other provisions required by the <<var;name=licenseName;original=[____];match=.+>> License. If you do not delete the provisions above, a recipient may use your version of this file under either the CPAL or the <<var;name=licenseName;original=[____];match=.+>> License.",
       "template": "CPAL-1.0.txt"
     },
     {
@@ -1137,7 +1137,7 @@
       ],
       "notes": null,
       "osi_approved": true,
-      "header": "The contents of this file are subject to the CUA Office Public License Version 1.0 (the \"License\"); you may not use this file except in compliance with the License. You may obtain a copy of the License at http://cuaoffice.sourceforge.net/\n\nSoftware distributed under the License is distributed on an \"AS IS\" basis, WITHOUT WARRANTY OF ANY KIND, either express or implied. See the License for the specific language governing rights and limitations under the License.\n\nThe Original Code is {{---}}.\n\nThe Initial Developer of the Original Code is  {{---}}.\nPortions created by  {{---}} are Copyright (C)  {{---}}. All Rights Reserved.\n\nContributor(s):  {{---}}.\n\nAlternatively, the contents of this file may be used under the terms of the  {{---}} license (the \" {{---}} License\"), in which case the provisions of  {{---}} License are applicable instead of those above. If you wish to allow use of your version of this file only under the terms of the  {{---}} License and not to allow others to use your version of this file under the CUAPL, indicate your decision by deleting the provisions above and replace them with the notice and other provisions required by the  {{---}} License. If you do not delete the provisions above, a recipient may use your version of this file under either the CUAPL or the  {{---}} License.\"",
+      "header": "The contents of this file are subject to the CUA Office Public License Version 1.0 (the \"License\"); you may not use this file except in compliance with the License. You may obtain a copy of the License at http://cuaoffice.sourceforge.net/\n\nSoftware distributed under the License is distributed on an \"AS IS\" basis, WITHOUT WARRANTY OF ANY KIND, either express or implied. See the License for the specific language governing rights and limitations under the License.\n\nThe Original Code is <<var;name=code;original=_____;match=.+>>.\n\nThe Initial Developer of the Original Code is  <<var;name=developer;original=_____;match=.+>>.\nPortions created by  <<var;name=createdby;original=_____;match=.+>> are Copyright (C)  <<var;name=copyright;original=_____;match=.+>>. All Rights Reserved.\n\nContributor(s): <<var;name=contributor;original=_____;match=.+>>.\n\nAlternatively, the contents of this file may be used under the terms of the <<var;name=AltLicense;original=_____;match=.+>> license (the \" <<var;name=licenseName;original=[____];match=.+>> License\"), in which case the provisions of  <<var;name=licenseName;original=[____];match=.+>> License are applicable instead of those above. If you wish to allow use of your version of this file only under the terms of the  <<var;name=licenseName;original=[____];match=.+>> License and not to allow others to use your version of this file under the CUAPL, indicate your decision by deleting the provisions above and replace them with the notice and other provisions required by the <<var;name=licenseName;original=[____];match=.+>> License. If you do not delete the provisions above, a recipient may use your version of this file under either the CUAPL or the <<var;name=licenseName;original=[____];match=.+>> License.\"",
       "template": "CUA-OPL-1.0.txt"
     },
     {
@@ -1152,6 +1152,17 @@
       "template": "Cube.txt"
     },
     {
+      "name": "curl License",
+      "id": "curl",
+      "sources": [
+        "https://github.com/bagder/curl/blob/master/COPYING"
+      ],
+      "notes": null,
+      "osi_approved": false,
+      "header": null,
+      "template": "curl.txt"
+    },
+    {
       "name": "Deutsche Freie Software Lizenz",
       "id": "D-FSL-1.0",
       "sources": [
@@ -1160,7 +1171,7 @@
       ],
       "notes": "This license was created for and is backed by the German state.  The English translation can be found here: http://www.dipp.nrw.de/d-fsl/index_html/lizenzen/en/D-FSL-1_0_en.txt",
       "osi_approved": false,
-      "header": "Copyright (C) {{year}} {{Name }}.\nDieses Programm kann durch jedermann gem\u00e4\u00df den \nBestimmungen der Deutschen Freien Software Lizenz \ngenutzt werden. \n\nDie Lizenz kann unter <http://www.d-fsl.de> \nabgerufen werden.",
+      "header": "Copyright (C) 20[jj] [Name des Rechtsinhabers]. \n\nDieses Programm kann durch jedermann gem\u00e4\u00df den \nBestimmungen der Deutschen Freien Software Lizenz \ngenutzt werden. \n\nDie Lizenz kann unter <http://www.d-fsl.de> \nabgerufen werden.",
       "template": "D-FSL-1.0.txt"
     },
     {
@@ -1249,7 +1260,7 @@
       ],
       "notes": null,
       "osi_approved": true,
-      "header": "Copyright (c) [year] [copyright holders}\nLicensed under the Educational Community License version 1.0",
+      "header": "Copyright (c) <<var;name=copyright;original=<year> <copyright holders>;match=.+>>\nLicensed under the Educational Community License version 1.0",
       "template": "ECL-1.0.txt"
     },
     {
@@ -1260,7 +1271,7 @@
       ],
       "notes": "The Educational Community License version 2.0 (\"ECL\") consists of the Apache 2.0 license, modified to change the scope of the patent grant in section 3 to be specific to the needs of the education communities using this license.\n\nThe url included in the boilerplate notice does not work. (15/10/10)",
       "osi_approved": true,
-      "header": "Copyright [yyyy] [copyright owner] \nLicensed under the Educational Community License, Version 2.0 (the \"License\"); you may not use this file except in compliance with the License. You may obtain a copy of the License at\n \n http://www.osedu.org/licenses/ECL-2.0\n\nUnless required by applicable law or agreed to in writing, software distributed under the License is distributed on an \"AS IS\" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License.",
+      "header": "Copyright <<var;name=copyright;original=[yyyy] [copyright owner];match=.+>>\nLicensed under the Educational Community License, Version 2.0 (the \"License\"); you may not use this file except in compliance with the License. You may obtain a copy of the License at\n \n http://www.osedu.org/licenses/ECL-2.0\n\nUnless required by applicable law or agreed to in writing, software distributed under the License is distributed on an \"AS IS\" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License.",
       "template": "ECL-2.0.txt"
     },
     {
@@ -1510,7 +1521,7 @@
       ],
       "notes": "This version was released: 19 November 2007",
       "osi_approved": true,
-      "header": "Copyright (C) [year]  [name of author]\n\nThis program is free software: you can redistribute it and/or modify it under the terms of the GNU Affero General Public License as published by the Free Software Foundation, version 3.\n\nThis program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU Affero General Public License for more details.\n\nYou should have received a copy of the GNU Affero General Public License along with this program.  If not, see <http://www.gnu.org/licenses/>.",
+      "header": "Copyright (C) <<var;name=copyright;original=[year]  [name of author];match=.+>>\n\nThis program is free software: you can redistribute it and/or modify it under the terms of the GNU Affero General Public License as published by the Free Software Foundation, version 3.\n\nThis program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU Affero General Public License for more details.\n\nYou should have received a copy of the GNU Affero General Public License along with this program.  If not, see <http://www.gnu.org/licenses/>.",
       "template": "AGPL-3.0.txt"
     },
     {
@@ -1521,7 +1532,7 @@
       ],
       "notes": "This license was released March 2000",
       "osi_approved": false,
-      "header": "Copyright (c)  {{YEAR}}  {{YOUR NAME}}.\n      Permission is granted to copy, distribute and/or modify this document\n      under the terms of the GNU Free Documentation License, Version 1.1;\n      {{with the Invariant Sections being LIST THEIR TITLES, with the\n      Front-Cover Texts being LIST, and with the Back-Cover Texts being LIST.\n      A copy of the license is included in the section entitled \"GNU\n      Free Documentation License\".}}",
+      "header": "Copyright (c) <<var;name=copyright;original=YEAR YOUR NAME;match=.+>>.\n      \nPermission is granted to copy, distribute and/or modify this document under the terms of the GNU Free Documentation License, Version 1.1 or any later version published by the Free Software Foundation; with the Invariant Sections being LIST THEIR TITLES, with the Front-Cover Texts being LIST, and with the Back-Cover Texts being LIST.\n      \nA copy of the license is included in the section entitled \"GNU Free Documentation License\".\n",
       "template": "GFDL-1.1.txt"
     },
     {
@@ -1532,7 +1543,7 @@
       ],
       "notes": "This license was released November 2002",
       "osi_approved": false,
-      "header": "Copyright (c) {{YEAR}}  {{YOUR NAME}}.\n    Permission is granted to copy, distribute and/or modify this document\n    under the terms of the GNU Free Documentation License, Version 1.2;\n   {{with no Invariant Sections, no Front-Cover Texts, and no Back-Cover Texts.\n    A copy of the license is included in the section entitled \"GNU\n    Free Documentation License\".}}\n\nIf you have Invariant Sections, Front-Cover Texts and Back-Cover Texts,\nreplace the \"with...Texts.\" line with this:\n\n    with the Invariant Sections being LIST THEIR TITLES, with the\n    Front-Cover Texts being LIST, and with the Back-Cover Texts being LIST.",
+      "header": "Copyright (c) <<var;name=copyright;original=YEAR YOUR NAME;match=.+>>.\n      \nPermission is granted to copy, distribute and/or modify this document under the terms of the GNU Free Documentation License, Version 1.2 or any later version published by the Free Software Foundation; with no Invariant Sections, no Front-Cover Texts, and no Back-Cover Texts.\n      \nA copy of the license is included in the section entitled \"GNU Free Documentation License\".\n",
       "template": "GFDL-1.2.txt"
     },
     {
@@ -1543,7 +1554,7 @@
       ],
       "notes": "This license was released 3 November 2008.",
       "osi_approved": false,
-      "header": "Copyright (c)  {{YEAR}}  {{YOUR NAME}}.\n    Permission is granted to copy, distribute and/or modify this document\n    under the terms of the GNU Free Documentation License, Version 1.3;\n   {{with no Invariant Sections, no Front-Cover Texts, and no Back-Cover Texts.\n    A copy of the license is included in the section entitled \"GNU\n    Free Documentation License\".}}",
+      "header": "Copyright (c) <<var;name=copyright;original=YEAR YOUR NAME;match=.+>>.\n      \nPermission is granted to copy, distribute and/or modify this document under the terms of the GNU Free Documentation License, Version 1.3 or any later version published by the Free Software Foundation; with no Invariant Sections, no Front-Cover Texts, and no Back-Cover Texts.\n      \nA copy of the license is included in the section entitled \"GNU Free Documentation License\".\n",
       "template": "GFDL-1.3.txt"
     },
     {
@@ -1554,7 +1565,7 @@
       ],
       "notes": "This license was released: February 1989.  \nThis license has been deprecated.\nThis refers to when this GPL 1.0 only is being used (as opposed to \"or later).",
       "osi_approved": false,
-      "header": "Copyright (C) [year]  [name of author]\n\nThis program is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; version 1.\n\nThis program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more details.\n\nYou should have received a copy of the GNU General Public License along with this program; if not, write to the Free Software Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.",
+      "header": "Copyright (C) <<var;name=copyright;original=19xx name of author;match=.+>>\n\nThis program is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; version 1.\n\nThis program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more details.\n\nYou should have received a copy of the GNU General Public License along with this program; if not, write to the Free Software Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.",
       "template": "GPL-1.0.txt"
     },
     {
@@ -1566,7 +1577,7 @@
       ],
       "notes": "This license was released: June 1991\nThis refers to when this GPL 2.0 only is being used (as opposed to GPLv2 or later).",
       "osi_approved": true,
-      "header": "Copyright (C) [year]  [name of author]\n\nThis program is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; version 2.\n\nThis program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more details.\n\nYou should have received a copy of the GNU General Public License along with this program; if not, write to the Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.",
+      "header": "Copyright (C) <<var;name=copyright;original=yyyy  name of author;match=.+>>\n\nThis program is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; version 2.\n\nThis program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more details.\n\nYou should have received a copy of the GNU General Public License along with this program; if not, write to the Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.",
       "template": "GPL-2.0.txt"
     },
     {
@@ -1578,7 +1589,7 @@
       ],
       "notes": "This license was released: 29 June 2007\nThis refers to when this GPL 3.0 only is being used (as opposed to \"or later).",
       "osi_approved": true,
-      "header": "Copyright (C) [year]  [name of author]\n \nThis program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, version.\n\nThis program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more details.\n\nYou should have received a copy of the GNU General Public License along with this program.  If not, see <http://www.gnu.org/licenses/>.",
+      "header": "Copyright (C) <<var;name=copyright;original=<year>  <name of author>;match=.+>>[year]\n \nThis program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, version.\n\nThis program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more details.\n\nYou should have received a copy of the GNU General Public License along with this program.  If not, see <http://www.gnu.org/licenses/>.",
       "template": "GPL-3.0.txt"
     },
     {
@@ -1590,7 +1601,7 @@
       ],
       "notes": "This license was released: February 1999.\nThis refers to when this LGPL 2.1 only is being used (as opposed to \"or later).",
       "osi_approved": true,
-      "header": "Copyright (C) [year]  [name of author]\n\nThis library is free software; you can redistribute it and/or modify it under the terms of the GNU Lesser General Public License as published by the Free Software Foundation; version 2.1.\n\nThis library is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU Lesser General Public License for more details.\n\nYou should have received a copy of the GNU Lesser General Public License along with this library; if not, write to the Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301  USA",
+      "header": "Copyright (C) <<var;name=copyright;original=year  name of author;match=.+>>\n\nThis library is free software; you can redistribute it and/or modify it under the terms of the GNU Lesser General Public License as published by the Free Software Foundation; version 2.1.\n\nThis library is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU Lesser General Public License for more details.\n\nYou should have received a copy of the GNU Lesser General Public License along with this library; if not, write to the Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301  USA",
       "template": "LGPL-2.1.txt"
     },
     {
@@ -1613,7 +1624,7 @@
       ],
       "notes": "This license was released: June 1991.\nThis license has been superseded by LGPL v2.1\nThis refers to when this LGPL 2.0 only is being used (as opposed to \"or later).",
       "osi_approved": true,
-      "header": "Copyright (C) [year]  [name of author]\n\nThis library is free software; you can redistribute it and/or modify it under the terms of the GNU Library General Public License as published by the Free Software Foundation; version 2.\n\nThis library is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU Library General Public License for more details.\n\nYou should have received a copy of the GNU Library General Public License along with this library; if not, write to the Free Software Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301, USA.",
+      "header": "Copyright (C) <<var;name=copyright;original=year  name of author;match=.+>>\n\nThis library is free software; you can redistribute it and/or modify it under the terms of the GNU Library General Public License as published by the Free Software Foundation; version 2.\n\nThis library is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU Library General Public License for more details.\n\nYou should have received a copy of the GNU Library General Public License along with this library; if not, write to the Free Software Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301, USA.",
       "template": "LGPL-2.0.txt"
     },
     {
@@ -1738,6 +1749,17 @@
       "template": "IJG.txt"
     },
     {
+      "name": "Info-ZIP License",
+      "id": "Info-ZIP",
+      "sources": [
+        "http://www.info-zip.org/license.html"
+      ],
+      "notes": null,
+      "osi_approved": false,
+      "header": null,
+      "template": "Info-ZIP.txt"
+    },
+    {
       "name": "Intel ACPI Software License Agreement",
       "id": "Intel-ACPI",
       "sources": [
@@ -1816,17 +1838,6 @@
       "template": "JSON.txt"
     },
     {
-      "name": "LaTeX Project Public License 1.3a",
-      "id": "LPPL-1.3a",
-      "sources": [
-        "http://www.latex-project.org/lppl/lppl-1-3a.txt"
-      ],
-      "notes": "This license was released 1 Oct 2004",
-      "osi_approved": false,
-      "header": "[filename]\nCopyright [year] [name]\n\nThis work may be distributed and/or modified under the conditions of the LaTeX Project Public License, either version 1.3 of this license or (at your option) any later version.\n\nThe latest version of this license is in\nhttp://www.latex-project.org/lppl.txt\nand version 1.3 or later is part of all distributions of LaTeX version 2003/12/01 or later.\n\nThis work has the LPPL maintenance status \"maintained\".\n \nThis Current Maintainer of this work is [name].\n\nThis work consists of the files [filename] and [filename] and the derived file [filename].",
-      "template": "LPPL-1.3a.txt"
-    },
-    {
       "name": "LaTeX Project Public License v1.0",
       "id": "LPPL-1.0",
       "sources": [
@@ -1834,7 +1845,7 @@
       ],
       "notes": "This license was released 1 Mar 1999",
       "osi_approved": false,
-      "header": "Copyright [YEAR] [NAME]\n\nThis program can redistributed and/or modified under the terms of the LaTeX Project Public License Distributed from CTAN archives in directory macros/latex/base/lppl.txt; either version 1 of the License, or (at your option) any later version.",
+      "header": "Copyright <<var;name=copyright;original=2001 M. Y. Name;match=.+>>\n\nThis program can redistributed and/or modified under the terms of the LaTeX Project Public License Distributed from CTAN archives in directory macros/latex/base/lppl.txt; either version 1 of the License, or (at your option) any later version.",
       "template": "LPPL-1.0.txt"
     },
     {
@@ -1845,7 +1856,7 @@
       ],
       "notes": "This license was released 10 July 1999.",
       "osi_approved": false,
-      "header": "Copyright [YEAR] [NAME]\n \nThis program may be distributed and/or modified under the conditions of the LaTeX Project Public License, either version 1.1 of this license or (at your option) any later version.\n\nThe latest version of this license is in http://www.latex-project.org/lppl.txt\nand version 1.1 or later is part of all distributions of LaTeX \nversion 1999/06/01 or later.\n\nThis program consists of the files pig.dtx and pig.ins",
+      "header": "Copyright <<var;name=copyright;original=2001 M. Y. Name;match=.+>>\n \nThis program may be distributed and/or modified under the conditions of the LaTeX Project Public License, either version 1.1 of this license or (at your option) any later version.\n\nThe latest version of this license is in http://www.latex-project.org/lppl.txt\nand version 1.1 or later is part of all distributions of LaTeX version 1999/06/01 or later.\n\nThis program consists of <<var;name=the work;original=the files pig.dtx and pig.ins;match=.+>>",
       "template": "LPPL-1.1.txt"
     },
     {
@@ -1856,8 +1867,19 @@
       ],
       "notes": "This license was released 3 Sept 1999.",
       "osi_approved": false,
-      "header": "Copyright [YEAR] [NAME]\n\nThis program may be distributed and/or modified under the conditions of the LaTeX Project Public License, either version 1.2 of this license or (at your option) any later version.\n\nThe latest version of this license is in http://www.latex-project.org/lppl.txt and version 1.2 or later is part of all distributions of LaTeX \nversion 1999/12/01 or later.\n\nThis program consists of the files pig.dtx and pig.ins",
+      "header": "Copyright <<var;name=copyright;original=2001 M. Y. Name;match=.+>>\n\nThis program may be distributed and/or modified under the conditions of the LaTeX Project Public License, either version 1.2 of this license or (at your option) any later version.\n\nThe latest version of this license is in http://www.latex-project.org/lppl.txt and version 1.2 or later is part of all distributions of LaTeX version 1999/12/01 or later.\n\nThis program consists of <<var;name=the work;original=the files pig.dtx and pig.ins;match=.+>>",
       "template": "LPPL-1.2.txt"
+    },
+    {
+      "name": "LaTeX Project Public License v1.3a",
+      "id": "LPPL-1.3a",
+      "sources": [
+        "http://www.latex-project.org/lppl/lppl-1-3a.txt"
+      ],
+      "notes": "This license was released 1 Oct 2004",
+      "osi_approved": false,
+      "header": "Copyright <<var;name=copyright;original=2003 M. Y. Name;match=.+>>\n\nThis work may be distributed and/or modified under the conditions of the LaTeX Project Public License, either version 1.3 of this license or (at your option) any later version.\n\nThe latest version of this license is in\nhttp://www.latex-project.org/lppl.txt\nand version 1.3 or later is part of all distributions of LaTeX version 2003/12/01 or later.\n\nThis work has the LPPL maintenance status \"maintained\".\n \nThis Current Maintainer of this work is <<var;name=maintainer;original=M. Y. Name;match=.+>>.\n\nThis work consists of <<var;name=the work;original=pig.dtx and pig.ins % and the derived file pig.sty;match=.+>>.",
+      "template": "LPPL-1.3a.txt"
     },
     {
       "name": "LaTeX Project Public License v1.3c",
@@ -1868,7 +1890,7 @@
       ],
       "notes": "This license was released: 4 May 2008",
       "osi_approved": true,
-      "header": "Copyright [YEAR] [NAME]\n \nThis work may be distributed and/or modified under the conditions of the LaTeX Project Public License, either version 1.3 of this license or (at your option) any later version. The latest version of this license is in http://www.latex-project.org/lppl.txt\n and version 1.3 or later is part of all distributions of LaTeX version 2005/12/01 or later.\n \nThis work has the LPPL maintenance status `maintained'. \n \nThe Current Maintainer of this work is M. Y. Name.\n\nThis work consists of the files pig.dtx and pig.ins and the derived file pig.sty.",
+      "header": "Copyright <<var;name=copyright;original=2005 M. Y. Name;match=.+>>\n \nThis work may be distributed and/or modified under the conditions of the LaTeX Project Public License, either version 1.3 of this license or (at your option) any later version. \n\nThe latest version of this license is in http://www.latex-project.org/lppl.txt\nAnd version 1.3 or later is part of all distributions of LaTeX version 2005/12/01 or later.\n \nThis work has the LPPL maintenance status `maintained'. \n \nThe Current Maintainer of this work is <<var;name=maintainer;original=M. Y. Name;match=.+>>.\n\nThis work consists of the files <<var;name=the work;original=pig.dtx and pig.ins and the derived file pig.sty;match=.+>>.",
       "template": "LPPL-1.3c.txt"
     },
     {
@@ -2059,7 +2081,7 @@
       ],
       "notes": "This license has been superseded by v1.1",
       "osi_approved": true,
-      "header": "The contents of this file are subject to the Mozilla Public License Version 1.0 (the \"License\"); you may not use this file except in compliance with the License. You may obtain a copy of the License at http://www.mozilla.org/MPL/\nSoftware distributed under the License is distributed on an \"AS IS\" basis, WITHOUT WARRANTY OF ANY KIND, either express or implied. See the License for the specific language governing rights and limitations under the License.\n\nThe Original Code is {{---}}.\n\nThe Initial Developer of the Original Code is {{---}}. Portions created by {{---}} are Copyright (C) {{---}} . All Rights Reserved.\n\nContributor(s): {{---}}.",
+      "header": "The contents of this file are subject to the Mozilla Public License Version 1.0 (the \"License\"); you may not use this file except in compliance with the License. You may obtain a copy of the License at http://www.mozilla.org/MPL/\nSoftware distributed under the License is distributed on an \"AS IS\" basis, WITHOUT WARRANTY OF ANY KIND, either express or implied. See the License for the specific language governing rights and limitations under the License.\n\nThe Original Code is <<var;name=code;original=_____;match=.+>>.\n\nThe Initial Developer of the Original Code is <<var;name=InitialDeveloper;original=_____;match=.+>>. Portions created by <<var;name=createdby;original=_____;match=.+>> are Copyright (C) <<var;name=copyright;original=_____;match=.+>>. All Rights Reserved.\n\nContributor(s): <<var;name=contributor;original=_____;match=.+>>.",
       "template": "MPL-1.0.txt"
     },
     {
@@ -2071,7 +2093,7 @@
       ],
       "notes": "This license has been superseded by v2.0",
       "osi_approved": true,
-      "header": "The contents of this file are subject to the Mozilla Public License Version 1.1 (the \"License\"); you may not use this file except in compliance with the License. You may obtain a copy of the License at http://www.mozilla.org/MPL/\n\nSoftware distributed under the License is distributed on an \"AS IS\" basis, WITHOUT WARRANTY OF ANY KIND, either express or implied. See the License for the specific language governing rights and limitations under the License.\n\nThe Original Code is {{---}}.\n\nThe Initial Developer of the Original Code is {{---}}. Portions created by {{---}} are Copyright (C) {{---}}. All Rights Reserved.\n\nContributor(s): {{---}}.\n\nAlternatively, the contents of this file may be used under the terms of the _____ license (the  \"[___] License\"), in which case the provisions of [______] License are applicable instead of those above. If you wish to allow use of your version of this file only under the terms of the [____] License and not to allow others to use your version of this file under the MPL, indicate your decision by deleting the provisions above and replace them with the notice and other provisions required by the [___] License. If you do not delete the provisions above, a recipient may use your version of this file under either the MPL or the [___] License.\"",
+      "header": "The contents of this file are subject to the Mozilla Public License Version 1.1 (the \"License\"); you may not use this file except in compliance with the License. You may obtain a copy of the License at http://www.mozilla.org/MPL/\n\nSoftware distributed under the License is distributed on an \"AS IS\" basis, WITHOUT WARRANTY OF ANY KIND, either express or implied. See the License for the specific language governing rights and limitations under the License.\n\nThe Original Code is <<var;name=code;original=_____;match=.+>>.\n\nThe Initial Developer of the Original Code is <<var;name=InitialDeveloper;original=_____;match=.+>>. Portions created by <<var;name=createdby;original=_____;match=.+>> are Copyright (C) <<var;name=copyright;original=_____;match=.+>>. All Rights Reserved.\n\nContributor(s): <<var;name=contributor;original=_____;match=.+>>.\n\nAlternatively, the contents of this file may be used under the terms of the <<var;name=AltLicense;original=_____;match=.+>> license (the  \"<<var;name=licenseName;original=[____];match=.+>> License\"), in which case the provisions of <<var;name=licenseName;original=[____];match=.+>> License are applicable instead of those above. If you wish to allow use of your version of this file only under the terms of the <<var;name=licenseName;original=[____];match=.+>> License and not to allow others to use your version of this file under the MPL, indicate your decision by deleting the provisions above and replace them with the notice and other provisions required by the <<var;name=licenseName;original=[____];match=.+>> License. If you do not delete the provisions above, a recipient may use your version of this file under either the MPL or the<<var;name=licenseName;original=[____];match=.+>>] License.\"",
       "template": "MPL-1.1.txt"
     },
     {
@@ -2195,7 +2217,7 @@
       ],
       "notes": null,
       "osi_approved": false,
-      "header": "The contents of this file are subject to the Netizen Open Source License Version 1.0 (the \"License\"); you may not use this file except in compliance with the License. You may obtain a copy of the License at http://netizen.com.au/licenses/NOPL/ \nSoftware distributed under the License is distributed on an \"AS IS\" basis, WITHOUT WARRANTY OF ANY KIND, either express or implied. See the License for the specific language governing rights and limitations under the License. \n\nThe Original Code is ______________________________________. \n\nThe Initial Developer of the Original Code is ________________________. Portions created by ______________________ are Copyright (C) ______ _______________________. All Rights Reserved. \n\nContributor(s): ______________________________________. \n\nAlternatively, the contents of this file may be used under the terms of the _____ license (the \"[___] License\"), in which case the provisions of [______] License are applicable instead of those above. If you wish to allow use of your version of this file only under the terms of the [____] License and not to allow others to use your version of this file under the NOSL, indicate your decision by deleting the provisions above and replace them with the notice and other provisions required by the [___] License. If you do not delete the provisions above, a recipient may use your version of this file under either the NOSL or the [___] License.",
+      "header": "The contents of this file are subject to the Netizen Open Source License Version 1.0 (the \"License\"); you may not use this file except in compliance with the License. You may obtain a copy of the License at http://netizen.com.au/licenses/NOPL/ \n\nSoftware distributed under the License is distributed on an \"AS IS\" basis, WITHOUT WARRANTY OF ANY KIND, either express or implied. See the License for the specific language governing rights and limitations under the License. \n\nThe Original Code is ______________________________________. \n\nThe Initial Developer of the Original Code is ________________________. Portions created by ______________________ are Copyright (C) ______ _______________________. All Rights Reserved. \n\nContributor(s): ______________________________________. \n\nAlternatively, the contents of this file may be used under the terms of the _____ license (the \"[___] License\"), in which case the provisions of [______] License are applicable instead of those above. If you wish to allow use of your version of this file only under the terms of the [____] License and not to allow others to use your version of this file under the NOSL, indicate your decision by deleting the provisions above and replace them with the notice and other provisions required by the [___] License. If you do not delete the provisions above, a recipient may use your version of this file under either the NOSL or the [___] License.",
       "template": "NOSL.txt"
     },
     {
@@ -2217,7 +2239,7 @@
       ],
       "notes": null,
       "osi_approved": false,
-      "header": "The contents of this file are subject to the Netscape Public License Version 1.0 (the \"License\"); you may not use this file except in compliance with the License. You may obtain a copy of the License at http://www.mozilla.org/NPL/Software distributed under the License is distributed on an \"AS IS\" basis, WITHOUT WARRANTY OF ANY KIND, either express or implied. See the License for the specific language governing rights and limitations under the License.\nThe Original Code is Mozilla Communicator client code, released March 31, 1998.\nThe Initial Developer of the Original Code is Netscape Communications Corporation. Portions created by Netscape are Copyright (C) 1998 Netscape Communications Corporation. All Rights Reserved.\nContributor(s): ______________________________________.",
+      "header": "The contents of this file are subject to the Netscape Public License Version 1.0 (the \"License\"); you may not use this file except in compliance with the License. You may obtain a copy of the License at http://www.mozilla.org/NPL/\n\nSoftware distributed under the License is distributed on an \"AS IS\" basis, WITHOUT WARRANTY OF ANY KIND, either express or implied. See the License for the specific language governing rights and limitations under the License.\n\nThe Original Code is Mozilla Communicator client code, released March 31, 1998.\n\nThe Initial Developer of the Original Code is Netscape Communications Corporation. Portions created by Netscape are Copyright (C) 1998 Netscape Communications Corporation. All Rights Reserved.\nContributor(s): ______________________________________.",
       "template": "NPL-1.1.txt"
     },
     {
@@ -2317,7 +2339,7 @@
       ],
       "notes": "This license was released: May 2002",
       "osi_approved": true,
-      "header": "Copyright (c) 2000-{{---}} OCLC Online Computer Library Center, Inc. and other contributors. All rights reserved. \n\nThe contents of this file, as updated from time to time by the OCLC Office of Research, are subject to OCLC Research Public License Version 2.0 (the \"License\"); you may not use this file except in compliance with the License. You may obtain a current copy of the License at http://purl.oclc.org/oclc/research/ORPL/. Software distributed under the License is distributed on an \"AS IS\" basis, WITHOUT WARRANTY OF ANY KIND, either express or implied. See the License for the specific language governing rights and limitations under the License. This software consists of voluntary contributions made by many individuals on behalf of OCLC Research. For more information on OCLC Research, please see http://www.oclc.org/research/. \n\nThe Original Code is {{---}}. The Initial Developer of the Original Code is {{---}}. Portions created by {{---}} are Copyright (C)  {{---}}. All Rights Reserved. Contributor(s): {{---}}.",
+      "header": "Copyright (c) 2000-<<var;name=year;original=(insert then current year);match=.+>>. OCLC Online Computer Library Center, Inc. and other contributors. All rights reserved. \n\nThe contents of this file, as updated from time to time by the OCLC Office of Research, are subject to OCLC Research Public License Version 2.0 (the \"License\"); you may not use this file except in compliance with the License. You may obtain a current copy of the License at http://purl.oclc.org/oclc/research/ORPL/. Software distributed under the License is distributed on an \"AS IS\" basis, WITHOUT WARRANTY OF ANY KIND, either express or implied. See the License for the specific language governing rights and limitations under the License. This software consists of voluntary contributions made by many individuals on behalf of OCLC Research. For more information on OCLC Research, please see http://www.oclc.org/research/. \n\nThe Original Code is <<var;name=code;original=_____;match=.+>>.. The Initial Developer of the Original Code is <<var;name=InitialDeveloper;original=_____;match=.+>>. Portions created by <<var;name=createdby;original=_____;match=.+>> are Copyright (C)  <<var;name=copyright;original=_____;match=.+>>. All Rights Reserved. \nContributor(s): <<var;name=contributor;original=_____;match=.+>>.",
       "template": "OCLC-2.0.txt"
     },
     {
@@ -2341,6 +2363,17 @@
       "osi_approved": false,
       "header": null,
       "template": "PDDL-1.0.txt"
+    },
+    {
+      "name": "Open CASCADE Technology Public License",
+      "id": "OCCT-PL",
+      "sources": [
+        "http://www.opencascade.com/content/occt-public-license"
+      ],
+      "notes": null,
+      "osi_approved": false,
+      "header": null,
+      "template": "OCCT-PL.txt"
     },
     {
       "name": "Open Group Test Suite License",
@@ -2743,7 +2776,7 @@
       ],
       "notes": null,
       "osi_approved": true,
-      "header": "Copyright \u00a9 1995-2002 RealNetworks, Inc. and/or its licensors. All Rights Reserved.\n\nThe contents of this file, and the files included with this file, are subject to the current version of the RealNetworks Public Source License Version 1.0 (the \"RPSL\") available at https://www.helixcommunity.org/content/rpsl unless you have licensed the file under the RealNetworks Community Source License Version 1.0 (the \"RCSL\") available at https://www.helixcommunity.org/content/rcsl, in which case the RCSL will apply. You may also obtain the license terms directly from RealNetworks. You may not use this file except in compliance with the RPSL or, if you have a valid RCSL with RealNetworks applicable to this file, the RCSL. Please see the applicable RPSL or RCSL for the rights, obligations and limitations governing use of the contents of the file.\n\nThis file is part of the Helix DNA Technology. RealNetworks is the developer of the Original code and owns the copyrights in the portions it created.\n\nThis file, and the files included with this file, is distributed and made available on an 'AS IS' basis, WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, AND REALNETWORKS HEREBY DISCLAIMS ALL SUCH WARRANTIES, INCLUDING WITHOUT LIMITATION, ANY WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, QUIET ENJOYMENT OR NON-INFRINGEMENT.\n\nContributor(s): {{---}}\n\nTechnology Compatibility Kit Test Suite(s) Location (if licensed under the RCSL):\n{{---}}.",
+      "header": "Copyright \u00a9 1995-2002 RealNetworks, Inc. and/or its licensors. All Rights Reserved.\n\nThe contents of this file, and the files included with this file, are subject to the current version of the RealNetworks Public Source License Version 1.0 (the \"RPSL\") available at https://www.helixcommunity.org/content/rpsl unless you have licensed the file under the RealNetworks Community Source License Version 1.0 (the \"RCSL\") available at https://www.helixcommunity.org/content/rcsl, in which case the RCSL will apply. You may also obtain the license terms directly from RealNetworks. You may not use this file except in compliance with the RPSL or, if you have a valid RCSL with RealNetworks applicable to this file, the RCSL. Please see the applicable RPSL or RCSL for the rights, obligations and limitations governing use of the contents of the file.\n\nThis file is part of the Helix DNA Technology. RealNetworks is the developer of the Original code and owns the copyrights in the portions it created.\n\nThis file, and the files included with this file, is distributed and made available on an 'AS IS' basis, WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, AND REALNETWORKS HEREBY DISCLAIMS ALL SUCH WARRANTIES, INCLUDING WITHOUT LIMITATION, ANY WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, QUIET ENJOYMENT OR NON-INFRINGEMENT.\n\nContributor(s): <<var;name=contributor;original=_____;match=.+>>\n\nTechnology Compatibility Kit Test Suite(s) Location (if licensed under the RCSL):\n<<var;name=testLocation;original=_____;match=.+>>.",
       "template": "RPSL-1.0.txt"
     },
     {
@@ -3008,7 +3041,7 @@
       ],
       "notes": null,
       "osi_approved": false,
-      "header": "The contents of this file are subject to the SugarCRM Public License Version 1.1.3\n(\"License\"); You may not use this file except in compliance with the\nLicense. You may obtain a copy of the License at http://www.sugarcrm.com/SPL\nSoftware distributed under the License is distributed on an \"AS IS\" basis,\nWITHOUT WARRANTY OF ANY KIND, either express or implied. See the License for\nthe specific language governing rights and limitations under the License.\n\nThe Original Code is: SugarCRM Open Source\n\nThe Initial Developer of the Original Code is SugarCRM, Inc.\nPortions created by SugarCRM are Copyright (C) 2004 SugarCRM, Inc.;\nAll Rights Reserved.\nContributor(s): {{---}}.",
+      "header": "The contents of this file are subject to the SugarCRM Public License Version 1.1.3\n(\"License\"); You may not use this file except in compliance with the\nLicense. You may obtain a copy of the License at http://www.sugarcrm.com/SPL\nSoftware distributed under the License is distributed on an \"AS IS\" basis,\nWITHOUT WARRANTY OF ANY KIND, either express or implied. See the License for\nthe specific language governing rights and limitations under the License.\n\nThe Original Code is: SugarCRM Open Source\n\nThe Initial Developer of the Original Code is SugarCRM, Inc.\nPortions created by SugarCRM are Copyright (C) 2004 SugarCRM, Inc.;\nAll Rights Reserved.\nContributor(s): _____.",
       "template": "SugarCRM-1.1.3.txt"
     },
     {
@@ -3020,7 +3053,7 @@
       ],
       "notes": null,
       "osi_approved": true,
-      "header": "The contents of this file are subject to the Sun Standards\nLicense Version 1.1 (the \"License\");\nYou may not use this file except in compliance with the\u00a0\nLicense. You may obtain a copy of the\nLicense at _______________________________.\n\nSoftware distributed under the License is distributed on\u00a0\nan \"AS IS\" basis, WITHOUT WARRANTY OF ANY KIND, either\u00a0\nexpress or implied. See the License for the specific\nlanguage governing rights and limitations under the License.\n\nThe Original Code is ______________________________________.\n\nThe Initial Developer of the Original Code is:\u00a0\nSun Microsystems, Inc..\n\nPortions created by: _______________________________________\n\nare Copyright (C): _______________________________________\n\nAll Rights Reserved.\n\nContributor(s): _______________________________________",
+      "header": "The contents of this file are subject to the Sun Standards License Version 1.1 (the \"License\");\nYou may not use this file except in compliance with the\u00a0License. You may obtain a copy of the\nLicense at <<var;name=LicLocation;original=_______;match=.+>>.\n\nSoftware distributed under the License is distributed on\u00a0an \"AS IS\" basis, WITHOUT WARRANTY OF ANY KIND, either\u00a0express or implied. See the License for the specific language governing rights and limitations under the License.\n\nThe Original Code is <<var;name=code;original=_____;match=.+>>.\n\nThe Initial Developer of the Original Code is:\u00a0\nSun Microsystems, Inc..\n\nPortions created by: <<var;name=createdby;original=_____;match=.+>>\n\nare Copyright (C): <<var;name=copyright;original=_____;match=.+>>\n\nAll Rights Reserved.\n\nContributor(s): <<var;name=contributor;original=_____;match=.+>>",
       "template": "SISSL.txt"
     },
     {
@@ -3031,7 +3064,7 @@
       ],
       "notes": null,
       "osi_approved": false,
-      "header": "The contents of this file are subject to the Sun Industry \nStandards Source License Version 1.2 (the License); You \nmay not use this file except in compliance with the License.\n\nYou may obtain a copy of the License at \ngridengine.sunsource.net/license.html\n\nSoftware distributed under the License is distributed on an \nAS IS basis, WITHOUT WARRANTY OF ANY KIND, either express or \nimplied. See the License for the specific language governing \nrights and limitations under the License.\n\nThe Original Code is Grid Engine.\n\nThe Initial Developer of the Original Code is: \nSun Microsystems, Inc.\n\nPortions created by: Sun Microsystems, Inc. are \nCopyright (C) 2001 Sun Microsystems, Inc.\n\nAll Rights Reserved.\n\n\"Contributor(s):__________________________________\"",
+      "header": "The contents of this file are subject to the Sun Industry Standards Source License Version 1.2 (the License); You may not use this file except in compliance with the License.\n\nYou may obtain a copy of the License at gridengine.sunsource.net/license.html\n\nSoftware distributed under the License is distributed on an AS IS basis, WITHOUT WARRANTY OF ANY KIND, either express or implied. See the License for the specific language governing \nrights and limitations under the License.\n\nThe Original Code is Grid Engine.\n\nThe Initial Developer of the Original Code is: Sun Microsystems, Inc.\n\nPortions created by: Sun Microsystems, Inc. are \nCopyright (C) 2001 Sun Microsystems, Inc.\n\nAll Rights Reserved.\n\n\"Contributor(s): <<var;name=contributor;original=_____;match=.+>>",
       "template": "SISSL-1.2.txt"
     },
     {
@@ -3042,7 +3075,7 @@
       ],
       "notes": null,
       "osi_approved": true,
-      "header": "The contents of this file are subject to the Sun Public License Version 1.0 (the License); you may not use this file except in compliance with the License. A copy of the License is available at http://www.sun.com/ The Original Code is {{---}}. The Initial Developer of the Original Code is {{---}}. Portions created by {{---}} are Copyright (C) {{---}}. All Rights Reserved.  Contributor(s): {{---}}\n\nAlternatively, the contents of this file may be used under the terms of the {{---}} license (the {{---}} License), in which case the provisions of {{---}} License are applicable instead of those above. If you wish to allow use of your version of this file only under the terms of the {{---}} License and not to allow others to use your version of this file under the SPL, indicate your decision by deleting the provisions above and replace them with the notice and other provisions required by the {{---}} License. If you do not delete the provisions above, a recipient may use your version of this file under either the SPL or the {{---}} License.",
+      "header": "The contents of this file are subject to the Sun Public License Version 1.0 (the License); you may not use this file except in compliance with the License. A copy of the License is available at http://www.sun.com/ \n\nThe Original Code is <<var;name=code;original=_____;match=.+>>. \nThe Initial Developer of the Original Code is <<var;name=InitialDeveloper;original=_____;match=.+>>. \nPortions created by <<var;name=createdby;original=_____;match=.+>> are Copyright (C) <<var;name=copyright;original=_____;match=.+>>. All Rights Reserved.  \nContributor(s): <<var;name=contributor;original=_____;match=.+>>\n\nAlternatively, the contents of this file may be used under the terms of the <<var;name=AltLicense;original=_____;match=.+>> license (the <<var;name=licenseName;original=[____];match=.+>> License), in which case the provisions of <<var;name=licenseName;original=[____];match=.+>> License are applicable instead of those above. If you wish to allow use of your version of this file only under the terms of the <<var;name=licenseName;original=[____];match=.+>> License and not to allow others to use your version of this file under the SPL, indicate your decision by deleting the provisions above and replace them with the notice and other provisions required by the <<var;name=licenseName;original=[____];match=.+>> License. If you do not delete the provisions above, a recipient may use your version of this file under either the SPL or the <<var;name=licenseName;original=[____];match=.+>> License.",
       "template": "SPL-1.0.txt"
     },
     {
@@ -3197,9 +3230,9 @@
         "http://www.w3.org/Consortium/Legal/2002/copyright-software-20021231.html",
         "http://www.opensource.org/licenses/W3C"
       ],
-      "notes": "This license was released: 13 December 2002.",
+      "notes": "This license was released: 13 December 2002.\nThe standard header is provided via a link from the original license page.",
       "osi_approved": true,
-      "header": "Copyright (C) {{---}} World Wide Web Consortium, (Massachusetts Institute of Technology, European Research Consortium for Informatics and Mathematics, Keio University). All Rights Reserved. This work is distributed under the W3C\u00ae Software License in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.",
+      "header": "Copyright (C) <<var;name=year;original=[$date-of-software];match=.+>> World Wide Web Consortium, (Massachusetts Institute of Technology, European Research Consortium for Informatics and Mathematics, Keio University). All Rights Reserved. This work is distributed under the W3C\u00ae Software License in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.",
       "template": "W3C.txt"
     },
     {
@@ -3410,39 +3443,6 @@
       "osi_approved": false,
       "header": null,
       "template": "ZPL-2.1.txt"
-    },
-    {
-      "name": "curl License",
-      "id": "curl",
-      "sources": [
-        "https://github.com/bagder/curl/blob/master/COPYING"
-      ],
-      "notes": null,
-      "osi_approved": false,
-      "header": null,
-      "template": "curl.txt"
-    },
-    {
-      "name": "Info-ZIP License",
-      "id": "Info-ZIP",
-      "sources": [
-        "http://www.info-zip.org/license.html"
-      ],
-      "notes": null,
-      "osi_approved": false,
-      "header": null,
-      "template": "Info-ZIP.txt"
-    },
-    {
-      "name": "Open CASCADE Technology Public License",
-      "id": "OCCT-PL",
-      "sources": [
-        "http://www.opencascade.com/content/occt-public-license"
-      ],
-      "notes": null,
-      "osi_approved": false,
-      "header": null,
-      "template": "OCCT-PL.txt"
     }
   ]
 }
