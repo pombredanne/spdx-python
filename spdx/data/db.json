@@ -1,5 +1,5 @@
 {
-  "version": "2.3",
+  "version": "2.5",
   "licenses": [
     {
       "name": "3dfx Glide License",
@@ -480,6 +480,39 @@
       "template": "BSD-3-Clause-Clear.txt"
     },
     {
+      "name": "BSD 3-Clause No Nuclear License",
+      "id": "BSD-3-Clause-No-Nuclear-License",
+      "sources": [
+        "http://download.oracle.com/otn-pub/java/licenses/bsd.txt?AuthParam=1467140197_43d516ce1776bd08a58235a7785be1cc"
+      ],
+      "notes": "This license has an older Sun copyright notice and is the same license as BSD-3-Clause-No-Nuclear-Warranty, except it specifies that that software is \"not licensed\" for use in a nuclear facility, as opposed to a disclaimer for such use.",
+      "osi_approved": false,
+      "header": null,
+      "template": "BSD-3-Clause-No-Nuclear-License.txt"
+    },
+    {
+      "name": "BSD 3-Clause No Nuclear License 2014",
+      "id": "BSD-3-Clause-No-Nuclear-License-2014",
+      "sources": [
+        "https://java.net/projects/javaeetutorial/pages/BerkeleyLicense"
+      ],
+      "notes": "This license has a Oracle copyright notice. It is the same license as BSD-3-Clause-No-Nuclear-License, except it has a different entire disclaimer clause that is the same as BSD-3-Clause.",
+      "osi_approved": false,
+      "header": null,
+      "template": "BSD-3-Clause-No-Nuclear-License-2014.txt"
+    },
+    {
+      "name": "BSD 3-Clause No Nuclear Warranty",
+      "id": "BSD-3-Clause-No-Nuclear-Warranty",
+      "sources": [
+        "https://jogamp.org/git/?p=gluegen.git;a=blob_plain;f=LICENSE.txt"
+      ],
+      "notes": "This license has a Sun copyright notice. It is the same license as BSD-3-Clause-No-Nuclear-License, except it has a disclaimer for nuclear factility use, instead of the software \"not licensed\" for such use.",
+      "osi_approved": false,
+      "header": null,
+      "template": "BSD-3-Clause-No-Nuclear-Warranty.txt"
+    },
+    {
       "name": "BSD 4-clause \"Original\" or \"Old\" License",
       "id": "BSD-4-Clause",
       "sources": [
@@ -502,6 +535,17 @@
       "template": "BSD-Protection.txt"
     },
     {
+      "name": "BSD Source Code Attribution",
+      "id": "BSD-Source-Code",
+      "sources": [
+        "https://github.com/robbiehanson/CocoaHTTPServer/blob/master/LICENSE.txt"
+      ],
+      "notes": null,
+      "osi_approved": false,
+      "header": null,
+      "template": "BSD-Source-Code.txt"
+    },
+    {
       "name": "BSD with attribution",
       "id": "BSD-3-Clause-Attribution",
       "sources": [
@@ -519,7 +563,7 @@
         "http://landley.net/toybox/license.html"
       ],
       "notes": null,
-      "osi_approved": false,
+      "osi_approved": true,
       "header": null,
       "template": "0BSD.txt"
     },
@@ -1458,6 +1502,17 @@
       "template": "FTL.txt"
     },
     {
+      "name": "FSF All Permissive License",
+      "id": "FSFAP",
+      "sources": [
+        "http://www.gnu.org/prep/maintain/html_node/License-Notices-for-Other-Files.html"
+      ],
+      "notes": null,
+      "osi_approved": false,
+      "header": null,
+      "template": "FSFAP.txt"
+    },
+    {
       "name": "FSF Unlimited License",
       "id": "FSFUL",
       "sources": [
@@ -1960,6 +2015,64 @@
       "template": "libtiff.txt"
     },
     {
+      "name": "Licence Art Libre 1.2",
+      "id": "LAL-1.2",
+      "sources": [
+        "http://artlibre.org/licence/lal/licence-art-libre-12/"
+      ],
+      "notes": "French is the canonical language for this license. Translations are available in:\nEnglish: http://artlibre.org/licence/lal/licence-art-libre-12/\nItalian: http://artlibre.org/licence/lal/it/\nSpanish: http://artlibre.org/licence/lal/es/",
+      "osi_approved": false,
+      "header": null,
+      "template": "LAL-1.2.txt"
+    },
+    {
+      "name": "Licence Art Libre 1.3",
+      "id": "LAL-1.3",
+      "sources": [
+        "http://artlibre.org/"
+      ],
+      "notes": "French is the canonical language for this license. Translations are available in:\nEnglish:  http://artlibre.org/licence/lal/en/\nPortuguese: http://artlibre.org/licence/lal/pt/\nPolish: http://artlibre.org/licence/lal/pl/",
+      "osi_approved": false,
+      "header": null,
+      "template": "LAL-1.3.txt"
+    },
+    {
+      "name": "Licence Libre du Qu\u00e9bec \u0096 Permissive version 1.1",
+      "id": "LiLiQ-P-1.1",
+      "sources": [
+        "http://opensource.org/licenses/LiLiQ-P-1.1",
+        "https://www.forge.gouv.qc.ca/participez/licence-logicielle/licence-libre-du-quebec-liliq-en-francais/licence-libre-du-quebec-liliq-en-francais-v1-0/licence-libre-du-quebec-reciprocite-liliq-r-v1-0/"
+      ],
+      "notes": "French is the canonical language for this license. An English translation is provided here: https://www.forge.gouv.qc.ca/participez/licence-logicielle/licence-libre-du-quebec-liliq-in-english/quebec-free-and-open-source-licence-%C2%96-permissive-liliq-p-v1-1/",
+      "osi_approved": true,
+      "header": null,
+      "template": "LiLiQ-P-1.1.txt"
+    },
+    {
+      "name": "Licence Libre du Qu\u00e9bec \u0096 R\u00e9ciprocit\u00e9 forte version 1.1",
+      "id": "LiLiQ-Rplus-1.1",
+      "sources": [
+        "http://opensource.org/licenses/LiLiQ-Rplus-1.1",
+        "https://www.forge.gouv.qc.ca/participez/licence-logicielle/licence-libre-du-quebec-liliq-en-francais/licence-libre-du-quebec-reciprocite-forte-liliq-r-v1-1/"
+      ],
+      "notes": "French is the canonical language for this license. An English translation is provided here: https://www.forge.gouv.qc.ca/participez/licence-logicielle/licence-libre-du-quebec-liliq-in-english/quebec-free-and-open-source-licence-strong-reciprocity-liliq-r-v1-1/",
+      "osi_approved": true,
+      "header": null,
+      "template": "LiLiQ-Rplus-1.1.txt"
+    },
+    {
+      "name": "Licence Libre du Qu\u00e9bec \u0096 R\u00e9ciprocit\u00e9 version 1.1",
+      "id": "LiLiQ-R-1.1",
+      "sources": [
+        "http://opensource.org/licenses/LiLiQ-R-1.1",
+        "https://www.forge.gouv.qc.ca/participez/licence-logicielle/licence-libre-du-quebec-liliq-en-francais/licence-libre-du-quebec-reciprocite-liliq-r-v1-1/"
+      ],
+      "notes": "French is the canonical language for this license. An English translation is provided here: https://www.forge.gouv.qc.ca/participez/licence-logicielle/licence-libre-du-quebec-liliq-in-english/quebec-free-and-open-source-licence-reciprocity-liliq-r-v1-1/",
+      "osi_approved": true,
+      "header": null,
+      "template": "LiLiQ-R-1.1.txt"
+    },
+    {
       "name": "Lucent Public License v1.02",
       "id": "LPL-1.02",
       "sources": [
@@ -2285,6 +2398,17 @@
       "osi_approved": true,
       "header": "Licensed under the\u00a0Non-Profit\u00a0Open Software License version 3.0",
       "template": "NPOSL-3.0.txt"
+    },
+    {
+      "name": "Norwegian Licence for Open Government Data",
+      "id": "NLOD-1.0",
+      "sources": [
+        "http://data.norge.no/nlod/en/1.0"
+      ],
+      "notes": "Norwegian translation available here: http://data.norge.no/nlod/no/1.0",
+      "osi_approved": false,
+      "header": null,
+      "template": "NLOD-1.0.txt"
     },
     {
       "name": "Noweb License",
@@ -2655,6 +2779,18 @@
       "template": "OpenSSL.txt"
     },
     {
+      "name": "OSET Public License version 2.1",
+      "id": "OSET-PL-2.1",
+      "sources": [
+        "http://opensource.org/licenses/OPL-2.1",
+        "http://www.osetfoundation.org/public-license/#"
+      ],
+      "notes": null,
+      "osi_approved": true,
+      "header": null,
+      "template": "OSET-PL-2.1.txt"
+    },
+    {
       "name": "PHP License v3.0",
       "id": "PHP-3.0",
       "sources": [
@@ -2683,7 +2819,7 @@
       "sources": [
         "https://fedoraproject.org/wiki/Licensing/Plexus_Classworlds_License"
       ],
-      "notes": "dom4j uses this same license.",
+      "notes": "This same license is used by several other projects: \n- Dom4j, e.g. http://dom4j.sourceforge.net/dom4j-1.6.1/license.html\n- Jaxen, e.g. https://confluence.sakaiproject.org/display/LIC/Jaxen+License+1.3\n- jCharts, e.g. http://jcharts.sourceforge.net/license.html",
       "osi_approved": false,
       "header": null,
       "template": "Plexus.txt"
@@ -2888,6 +3024,17 @@
       "osi_approved": false,
       "header": null,
       "template": "SWL.txt"
+    },
+    {
+      "name": "Secure Messaging Protocol Public License",
+      "id": "SMPPL",
+      "sources": [
+        "https://github.com/dcblake/SMP/blob/master/Documentation/License.txt"
+      ],
+      "notes": null,
+      "osi_approved": false,
+      "header": null,
+      "template": "SMPPL.txt"
     },
     {
       "name": "Sendmail License",
